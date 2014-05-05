@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    android:background="@drawable/bg_gradient_grey"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/tabBar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_gradient_blue">
+
+        <LinearLayout
+            android:id="@+id/BtnSlide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/indicator_selector"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/img_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginRight="-5dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/arrow_back_orange" />
+
+            <ImageView
+                android:id="@+id/img_slide"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="0px"
+                android:contentDescription="@string/app_name"
+                android:padding="0px"
+                android:src="@drawable/img_workintent" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/style_title_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/home_workintent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/workintent_content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/workintent_info1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/workintent_info1"
+            style="@style/style_workable_txt" />
+        
+        <TextView
+            android:id="@+id/workintent_info2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/workintent_info2"
+            style="@style/style_workable_txt" />
+        
+         <TextView
+            android:id="@+id/workintent_info3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/workintent_info3"
+            style="@style/style_workable_txt" />
+         
+         <TextView
+            android:id="@+id/workintent_info4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/workintent_info4"
+            style="@style/style_workable_txt" />
+         
+          <TextView
+            android:id="@+id/workintent_info5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/workintent_info5"
+            style="@style/style_workable_txt" />
+        
+
+    </LinearLayout>
+
+</LinearLayout>

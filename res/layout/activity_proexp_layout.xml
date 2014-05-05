@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/proexp_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/tabBar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+         android:background="@drawable/bg_gradient_blue">
+        
+      <LinearLayout
+        android:id="@+id/BtnSlide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/indicator_selector"
+        android:orientation="horizontal" >
+      <ImageView
+        android:id="@+id/img_arrow"
+      	android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        android:layout_marginRight="-5dp"
+        android:layout_marginLeft="-5dp"
+        android:src="@drawable/arrow_back_orange"/>
+
+        <ImageView
+            android:id="@+id/img_slide"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/app_name"
+            android:layout_margin="0px"
+            android:padding="0px"
+            android:src="@drawable/img_proexp" />
+        </LinearLayout>
+
+      <FrameLayout 
+           	android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            style="@style/style_title_txt" 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/home_projectexp"/>
+
+        <ToggleButton
+            android:id="@+id/proexp_tglbtn"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="10dp"
+            android:checked="true"
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/tglrecybtn"/>
+	</FrameLayout>
+    </LinearLayout>
+    
+	<LinearLayout
+        android:id="@+id/proexp_content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:background="@drawable/bg5">
+    </LinearLayout>
+
+</LinearLayout>

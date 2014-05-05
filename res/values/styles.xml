@@ -1,0 +1,99 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="style_home_btn" parent="@android:style/Widget.Button">
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:background">@drawable/home_btn_selector</item>
+    </style>
+    
+    <style name="style_title_txt" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/cyandeep</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:shadowColor">@color/greydeep</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:paddingRight">65dp</item>
+    </style>
+    
+     <style name="style_home_title" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/cyandeep</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:shadowColor">@color/greydeep</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:paddingRight">65dp</item>
+    </style>
+    
+    <style name="style_baseinfo_txt" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/bluedeep</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">6</item>
+        <item name="android:shadowRadius">5</item>
+    </style>
+    
+    <style name="style_eduinfo_txt" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:typeface">normal</item>
+    </style>
+    
+    <style name="style_certificate_txt" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/orangedeep</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:shadowColor">@color/greydeep</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">5</item>
+    </style>
+    <style name="style_workable_txt" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">fill_horizontal|right</item>
+        <item name="android:textColor">@color/bluedeep</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    
+     <style name="style_update_txt" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/orangedeep</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    
+
+</resources>

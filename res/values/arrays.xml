@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="home_list_index">
+        <item>个人资料</item>
+        <item>求职信息</item>
+    </string-array>
+    <string-array name="home_list_context">
+        <item>基本资料</item>
+        <item>教育背景</item>
+        <item>联系方式</item>
+        <item>我的博客</item>
+        <item>求职意向</item>
+        <item>工作能力</item>
+        <item>项目经验</item>
+        <item>期待薪资</item>
+        <item>其他技能</item>
+        <item>版权说明</item>
+    </string-array>
+    <string-array name="proexp_index_list">
+        <item>项目一</item>
+        <item>项目二</item>
+        <item>项目三</item>
+        <item>项目四</item>
+        <item>项目五</item>
+    </string-array>
+    <string-array name="proexp_name_list">
+        <item>Android音乐播放器</item>
+        <item>程序批量管理</item>
+        <item>生活小日记</item>
+        <item>乘法表小游戏</item>
+        <item>个人简历app</item>
+    </string-array>
+    <string-array name="proexp_station_list">
+        <item>window+eclipse</item>
+        <item>window+eclipse</item>
+        <item>window+eclipse</item>
+        <item>window+eclipse</item>
+        <item>window+eclipse</item>
+    </string-array>
+    <string-array name="proexp_info_list">
+        <item>仿照模板添加\n常用功能:播放控制;播放模式选择;播放列表;界面背景切换等.\n新功能：睡眠模式等。</item>
+        <item>方便整合卸载应用程序</item>
+        <item>记录在生活中所发生的事</item>
+        <item>以游戏方式让小孩记乘法表</item>
+        <item>详细展示作者个人信息\n现在正在看的。 </item>
+    </string-array>
+    <string-array name="proexp_number_list">
+        <item>2014.02——2014.02  1人</item>
+        <item>2014.02——2014.03  1及友人</item>
+        <item>2014.03——2014.03  1人</item>
+        <item>2014.03——2014.04  1人</item>
+        <item>2014.04——2014.05  1及友人</item>
+    </string-array>
+    <string-array name="proexp_task_list">
+        <item>1.项目需求的分析和整理\n2.项目整体的界面框架布局\n3.项目具体功能的实现\n4.项目bug的调试与解决\n5.开发过程中相关文档的记录和整理</item>
+        <item>1.UI布局\n2. 批量卸载\n3.动画特效\n4.项目bug的调试与解决</item>
+        <item>完成所有代码编写</item>
+        <item>独立完成所有代码编写</item>
+        <item>独立增删完成</item>
+    </string-array>
+
+</resources>

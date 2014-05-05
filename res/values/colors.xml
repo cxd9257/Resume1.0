@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="greendark">#408c25</color>
+    <color name="greendeep">#1acf17</color>
+    <color name="greenlight">#45ed3d</color>
+    
+    <color name="cyandeep">#c4e511</color>
+     <color name="cyanlight">#e6ff40</color>
+     
+    <color name="bluedeep">#00afff</color>
+    <color name="bluelight">#00e4ff</color>
+    
+    <color name="greylight">#3c3b3b</color>
+    <color name="greydeep">#2f2f2f</color>
+    
+    <color name="orangedeep">#ff7a00</color>
+    <color name="orangelight">#ffed00</color>
+    
+    <color name="dark">#a19f9f</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0000</color>
+    
+    <color name="sweepblue">#2d5a8c</color>
+    <color name="sweeporange">#d89212</color>
+    <color name="sweepgreen">#3c8f11</color>
+    
+    
+    
+    
+</resources>
