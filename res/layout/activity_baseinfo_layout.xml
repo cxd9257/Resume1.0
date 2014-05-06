@@ -4,14 +4,14 @@
     android:id="@+id/app"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_gradient_orange"
+    android:background="@drawable/bg_gradient_grey"
     android:orientation="vertical">
 
     <LinearLayout
         android:id="@+id/tabBar"
         android:layout_width="fill_parent"
         android:layout_height="50dp"
-        android:background="@drawable/bg_gradient_blue"
+        android:background="@drawable/bg_gradient_grey"
         android:orientation="horizontal" >
 
         <LinearLayout

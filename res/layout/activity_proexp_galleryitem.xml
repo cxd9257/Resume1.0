@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:layout_margin="5dp"
     android:orientation="vertical" 
-    android:background="@drawable/bg5">
+    android:background="@drawable/bg3">
 
     <TextView
         android:id="@+id/proexp_txt_index"

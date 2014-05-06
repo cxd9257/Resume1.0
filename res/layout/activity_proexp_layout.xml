@@ -4,7 +4,7 @@
     android:id="@+id/proexp_root_view"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/bg5"
+    android:background="@drawable/bg3"
     android:orientation="vertical">
 
     <LinearLayout
@@ -12,7 +12,7 @@
         android:layout_width="fill_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
-         android:background="@drawable/bg_gradient_blue">
+         android:background="@drawable/bg_gradient_grey">
         
       <LinearLayout
         android:id="@+id/BtnSlide"
@@ -66,7 +66,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical" 
-        android:background="@drawable/bg5">
+        android:background="@drawable/bg3">
     </LinearLayout>
 
 </LinearLayout>

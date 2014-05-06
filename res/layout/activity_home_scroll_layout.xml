@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_gradient_blue"
+    
     tools:context=".HomeActivity" >
 
     <RelativeLayout
@@ -56,6 +56,6 @@
         android:background="@drawable/exit_selector"
         android:contentDescription="@string/app_name"
         android:src="@drawable/ic_exit"
-        android:visibility="visible" />
+        android:visibility="gone" />
 
 </FrameLayout>

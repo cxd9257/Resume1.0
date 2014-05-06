@@ -25,11 +25,11 @@ public class HomeListAdapter extends BaseAdapter{
 	 private LayoutInflater mInflater = null;
 	
 	 int[] imgIds = new int[]{
-			 R.drawable.img_baseinfo,R.drawable.img_edu,R.drawable.img_certificate,
+			 R.drawable.img_baseinfo,R.drawable.img_edu,
 			 R.drawable.img_rtconn,R.drawable.img_blog,
 			 R.drawable.img_workintent,R.drawable.img_workability,R.drawable.img_proexp,
 			 R.drawable.img_salary,R.drawable.img_otherability,
-			 R.drawable.img_update,R.drawable.img_history,R.drawable.img_copyright
+			 R.drawable.img_copyright
 	 };
 	 
 	public HomeListAdapter(Context context){
